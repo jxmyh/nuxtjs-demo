@@ -10,14 +10,14 @@
       <BaseFooButton></BaseFooButton>
       <NButton>hello</NButton>
     </div> -->
-    <div>
+    <!-- <div>
 
       <p class="p-5" v-if="pending"> 加载中 </p>
       <p class="p-5" v-else> 加载完毕 </p>
-    </div>
-    <div>
+    </div> -->
+    <!-- <div>
       {{ error }}
-    </div>
+    </div> -->
     <div class="flex items-center flex-col gap-2 py-4">
       <div v-for="post in posts" :key="post.id">
         <nuxt-link :to="`/detail/${post.id}`" class="text-lg">{{ post.title }}</nuxt-link>
