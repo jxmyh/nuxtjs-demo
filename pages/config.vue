@@ -5,7 +5,7 @@
     </p>
     <p>appConfig: {{ JSON.stringify(appConfig) }}</p>
     <p>runtimeconfig: {{ JSON.stringify(runtimeconfig) }}</p>
-    <!-- <label>
+    <!--2323 <label>
       dark mode:
       <NSwitch id="toggle" v-model:value="appConfig.theme.dark" />
     </label> -->
