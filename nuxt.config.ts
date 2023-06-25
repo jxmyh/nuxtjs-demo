@@ -1,12 +1,12 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+// https://nuxt.com/docs/api/configuration/nuxt-config232
 export default defineNuxtConfig({
-  runtimeConfig: {
-    // 只能用于服务端的 key
-    apiSecret: '123',
-    public: {
-      apiBase: '/api'
-    }
-  },
+  // runtimeConfig: {
+  //   // 只能用于服务端的 key
+  //   apiSecret: '123',
+  //   public: {
+  //     apiBase: '/api'
+  //   }
+  // },
   nitro: {
     preset: 'vercel'
   },
